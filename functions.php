@@ -37,4 +37,3 @@ function get_site_global( $var ) {
 foreach ( glob(TEMPLATEPATH . '/functions/*.php') as $file ) {
      require_once $file;
 }
-
